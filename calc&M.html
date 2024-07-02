@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="group">
+        <div class="calc">
+            <div>
+                <span id="num1_el"></span>
+                <span id="num2_el"></span>
+            </div>
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="divide()">Divide</button>
+            <button onclick="multiply()">Multiply</button>
+
+            <hr>
+            <p>Sum: <span id="sum"></span></p>
+            <hr>
+        </div>
+        <!--Scoreboard-->
+        <div class="scoreboard">
+            <div>
+                <h1>HOME</h1>
+                <p id="counter">0</p>
+                <button onclick="add1()">+1</button>
+                <button onclick="add2()">+2</button>
+                <button onclick="add3()">+3</button>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <p id="counter2">0</p>
+                <button onclick="add1g()">+1</button>
+                <button onclick="add2g()">+2</button>
+                <button onclick="add3g()">+3</button>
+            </div>
+
+            <button onclick="newGame()">New Game</button>
+
+            <p id="gameplay"></p>
+            <button onclick="updateGameplay()">LeaderBoard</button>
+        </div>  
+        <script src="calc.js"></script>
+    </div>
+</body>
+</html>
