@@ -112,3 +112,17 @@ button:hover {
 .team1 button:hover,.team2 button:hover {
     background-color: blue;
 }
+
+#new_game {
+    background-color: aqua;
+    width: 80%;
+}
+
+#updt_game {
+    background-color: rgb(195, 255, 0);
+    width: 80%;
+}
+
+#gameplay {
+    font-size: 20px;
+}
