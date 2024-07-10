@@ -95,3 +95,8 @@ button:hover {
     background-color: red;
     border-color: black;
 }
+
+.team2 button {
+    background-color: green;
+    border-color: black;
+}
