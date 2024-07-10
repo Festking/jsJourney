@@ -77,12 +77,6 @@ button:hover {
     align-items: center;
 }
 
-@media screen and (max-width:768px) {
-    .group {
-        flex-direction: column;
-    }
-}
-
 #counter, #counter2 {
     font-weight: bold;
     font-size: 28px;
